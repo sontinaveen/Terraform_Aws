@@ -1,5 +1,5 @@
 # Project :
-==========
+
 *creating infrastructure using Terraform on AWS*
 
 You'll create a VPC and deploy 2 applications in different availability zones. We will also create a load balancer to balance the load between the instances automatically.
@@ -14,12 +14,10 @@ You'll create a VPC and deploy 2 applications in different availability zones. W
 * below are the commands to use:
 
 # commands:
-===========
-
 - terraform init
 - terraform validate
 - terraform plan
 - terraform apply
 
-Note: After the usage please terminte all the resources in aws due to cost effective. 
+# Note: After the usage please terminte all the resources in aws due to cost effective. 
 - terraform destroy
